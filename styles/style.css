@@ -1,0 +1,160 @@
+/* work sans link */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Poppins:wght@400;500&display=swap');
+/* root variables */
+/* :root {
+    --bg-primary: #FFF4E7;
+    --bg-secondary: #ffffff;
+    --btn-primary: #FF900E;
+    --max-width: 1450px;
+} */
+
+/*Universal, Common, & Reusable Styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* nav style */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+ul {
+    display: flex;
+    font-weight: 500;
+    font-size: 18px;
+    gap: 60px;
+    list-style: none;
+}
+
+/* header section */
+.header,
+nav {
+    width: 100%;
+    background-color: #FFF4E7;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+    height: 1380px;
+}
+
+.header-details {
+    text-align: center;
+
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+}
+
+.header-info {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding: 24px 0 30px 0;
+    line-height: 26px;
+}
+
+
+
+.header-image img {
+    width: 1440px;
+    height: 700px;
+    margin: 50px 240px;
+}
+
+.btn-primary {
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top: 32px;
+
+
+}
+
+/* features styles */
+.our-features {
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.features-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 70px;
+    margin: 85px 301px 0 301px;
+    
+}
+
+.features-images-teams {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+}
+
+.features-images-teams img {
+    width: 342px;
+    height: 342px;
+}
+
+.features-details {
+    width: 530px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.our-features-title {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+
+}
+
+strong {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    /* line-height: 53px; */
+}
+
+span {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+
+}
+
+.features-info {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+}
