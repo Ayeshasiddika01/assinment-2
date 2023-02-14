@@ -132,6 +132,7 @@ nav {
 }
 
 .our-features-title {
+    width: 468px;
     font-weight: 500;
     font-size: 45px;
     color: #727272;
@@ -223,10 +224,7 @@ span {
 
 }
 
-.experience-achieved {
-    width: 708px;
-    height: 982px;
-}
+
 
 .btn-primary-ten-years {
     width: 342px;
@@ -236,6 +234,7 @@ span {
     font-weight: 500;
     font-size: 25px;
     border: none;
+    border-radius: 8px;
 }
 
 .tenplus {
@@ -244,15 +243,7 @@ span {
     color: #FFFFFF;
 }
 
-/* .experience-achieved:hover .ten-years {
-    animation-name: onhover;
-    animation-duration: 2s;
-    animation-timing-function: ease-in ease-out;
-}
-.ten-years {
-    position: relative;
 
-} */
 /* facts styles */
 .facts-info {
     margin: 130px 0px 100px 240px;
@@ -357,4 +348,115 @@ span {
     color: #424242;
     text-align: center;
     padding: 39px 0 39px 0;
+}
+
+/* responsive styles */
+@media only screen and (max-width: 576px) {
+
+    nav,
+    .header-details,
+    .features-container,
+    .Features-love-enjoy-container-description,
+    .facts-container,
+    .Sponsors-details {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px 20px;
+        align-items: flex-start;
+
+
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+    }
+
+    nav li {
+        margin: 0%;
+    }
+
+    .header-details {
+        width: auto;
+        text-align: start;
+
+    }
+
+    .container {
+        padding-top: 30px;
+    }
+
+    .btn-primary {
+        margin-top: 0%;
+    }
+
+    .header-image img {
+        width: 100%;
+        padding: 10px 20px;
+
+    }
+
+    .features-container {
+        margin: 30px 0 30px 0;
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .features-info {
+        margin-bottom: 24px;
+    }
+
+    .features-images-teams {
+        display: flex;
+        flex-direction: column;
+    }
+    .Features-love-enjoy-container-description{
+        margin: 0;
+        display: flex;
+    }
+   
+    .experience-achieved img {
+        width: 100%;
+    }
+    .facts-info, .facts-boxes{
+        margin: 0;
+    }
+    .facts-detailes{
+        width: auto;
+    }
+    .facts-boxes{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .boxes-details{
+        margin-bottom: 20px;
+    }
+    .Sponsors-details{
+        margin: 0;
+        text-align: start;
+    }
+    .Sponsors-logoes{
+        flex-direction: column;
+        margin: 10px 20px;
+        
+    }
+    .Sponsors-logoes img{
+       margin-bottom: 40px;
+    }
+    .footer{
+        margin: 0;
+    }
+    
+    .footer-authore{
+        padding-left: 10px;
+        text-align: start;
+        width:400px;
+    }
+
+
+
+
+
 }
